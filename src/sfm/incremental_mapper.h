@@ -69,7 +69,7 @@ class IncrementalMapper {
 
     // Maximum error in pixels for two-view geometry estimation for initial
     // image pair.
-    double init_max_error = 4.0;
+    double init_max_error = 16.0;
 
     // Maximum forward motion for initial image pair.
     double init_max_forward_motion = 0.95;
